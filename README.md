@@ -1,6 +1,8 @@
+
 # ProyectoDIW
 ## Enlace GitHub Pages
-# https://joseangellopez.github.io/ProyectoDIW/ 
+
+#https://sergio4j.github.io/Proyectodiweb/
 
 ### Proyecto que consiste en la realización de una página web basada en la interfaz de una tienda online, en este caso religiosa
 

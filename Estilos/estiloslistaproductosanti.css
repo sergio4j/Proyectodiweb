@@ -1,0 +1,30 @@
+.card img {
+    width: auto ;
+    height: 330px;
+}
+#Titulo {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+body {
+    cursor: url(../img/satanica/cabrapequena.png), auto;
+}
+a:link{ 
+    cursor: url(../img/satanica/cruzpeque.gif), auto;
+}
+
+body {
+    background-color: black;
+    font-family: Lucida Sans Unicode;
+    font-style: italic;
+}
+.card:hover{
+    -webkit-box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 129px 0px rgba(0,0,0,1);
+}
+footer a {
+    font-size: 15px;
+}

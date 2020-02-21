@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Lista de Categorías</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="J-Esicristo, la mejor página de articulos religiosos"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Estilos/estilos_list_categoria.css">
+    <link rel="stylesheet" href="../Estilos/estiloindex.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
+            <a class="navbar-brand" href="#">
+                <img src="../img/inicio/logo.png" width="60" height="60" alt="Icono de logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><u><strong>Categorías</strong></u></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../contacto.html">Contacto</a>
+                    </li>
+
+                    <li class="nav-item active carrito">
+                        <a class="nav-link " href="../login_register.html">Login/Registro</a>
+                    </li>
+                    <a class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i class="material-icons">add_shopping_cart</i>Carrito
+                    </a>
+
+                </ul>
+
+            </div>
+        </nav>
+        <br>
+        <div class="card-deck">
+            <div class="card complementos" onclick="location.href='complementos/listaproductoscomplementos.html'">
+                <img src="../img/complementos/sotana.jpg" class="card-img-top img-fluid img-thumbnail" alt="imagen complementos">
+                <div class="card-body">
+                    <h5 class="card-title">Complementos</h5>
+                    <p class="card-text">Encuentra aquí los mejores complementos para poder replicar tus fiestas
+                        parroquiales, sotanas de la mayor calidad,
+                        solideos de materiales de alta calidad y la mejor fabricación y un sin fin de productos más</p>
+                </div>
+            </div>
+            <div class="card comida" onclick="location.href='comida/listaproductoscomida.html'">
+                <img src="../img/inicio/hostias.jpg" class="card-img-top img-fluid img-thumbnail" alt="imagen comida">
+                <div class="card-body">
+                    <h5 class="card-title">Comida</h5>
+                    <p class="card-text">Consigue la comida que comen los altos cargos de la iglesia, bendecida por su
+                        mismísima santidad el Papa Francisco</p>
+                </div>
+
+            </div>
+            <div class="card regalos" onclick="location.href='regalos/listaproductosregalos.html'">
+                <img src="../img/regalos/cuadro.jpg" class="card-img-top img-fluid img-thumbnail" alt="imagen regalos">
+                <div class="card-body">
+                    <h5 class="card-title">Regalos</h5>
+                    <p class="card-text">Visita nuestra amplia sección de regalos donde encontrarás los mejores regalos relacionados con
+                        la religión cristiana, todos los regalos están bendecidos</p>
+                </div>
+            </div>
+            <div class="card demonio" onclick="location.href='satanica/listaproductosanti.html'">
+                <img src="../img/satanica/biblia.jpg" class="card-img-top img-fluid img-thumbnail" alt="imagen demoniaca">
+                <div class="card-body">
+                    <h5 class="card-title">Zona Demoniaca</h5>
+                    <p class="card-text">Esta es la zona prohibida. Aquí encontrarás material para realizar rituales satánicos y adorar al
+                        ser superior que has elegido</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <footer>
+            <nav class="navbar navbar-light bg-white">
+                <div class="row col-3">
+                    <a class="navbar-brand ml-2" href="https://es-es.facebook.com/FranciscusPP/" target="_bank">
+                        <img src="../img/inicio/f.png" width="35" height="35" alt="logo facebook">
+                    </a>
+                    <a class="navbar-brand mt-0" href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/" target="_bank">
+                        <img src="../img/inicio/t.png" width="35" height="25" alt="logo twitter">
+                    </a>
+                </div>
+                <div class="row col-5">
+                    <a href="../legal/avisos_legales.html" class="text-decoration-none text-center m-2 text-dark "> Avisos legales </a>
+                    <a href="../legal/politica_cookies.html" class="text-decoration-none text-center m-2 text-dark"> Política de cookies</a>
+                    <a href="../legal/derechos_uso.html" class="text-decoration-none text-center m-2 text-dark"> Derechos de uso </a>
+                </div>
+                <div class="row col-3 git">
+                    <a class="navbar-brand" href="https://github.com/joseangellopez/ProyectoDIW" target="_bank">
+                        <img src="../img/inicio/g.png" width="140" height="50" alt="logo github">
+                    </a>
+                </div>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <script type="text/javascript" src="js/login_register.js"></script>
+</body>
+
+</html>

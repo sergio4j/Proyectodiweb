@@ -1,212 +1,471 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta name="description" content="productos">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="description" content="productos" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--ESTILOS BOOSTRAP-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   <!--ICONOS-->
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--ICONOS-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--ESTILOS INICIO-->
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Estilos/estiloindex.css">
-    <link rel="icon" type="image/png" href="img/inicio/logo.png" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Estilos/estiloindex.css" />
+    <link rel="icon" type="image/png" href="img/inicio/logo.png" />
 
     <title>J-EsiCristo</title>
-</head>
-<body>
-<div class="container">
-<!--NAVEGACIÓN-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion ">
-      <a class="navbar-brand" href="#">
-          <img src="img/inicio/logo.png" width="60" height="60" alt="Logo J-EsiCristo ">
-      </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  </head>
+  <body>
+    <div class="container">
+      <!--NAVEGACIÓN-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white navegacion">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/inicio/logo.png"
+            width="60"
+            height="60"
+            alt="Logo J-EsiCristo "
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-dark my-2 my-sm-0" type="submit">Buscar</button>
-              </form>
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark my-2 my-sm-0" type="submit">
+                Buscar
+              </button>
+            </form>
             <li class="nav-item active">
-              <a class="nav-link" href="#"><u><strong>Inicio</strong></u> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"
+                ><u><strong>Inicio</strong></u>
+                <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="categorias/lista_categoria.html">Categorías</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-                <li class="nav-item active carrito ">
-                  <a class="nav-link " href="login_register.html">Login/Registro</a>
-              </li>               
-              <a class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"><i class="material-icons">add_shopping_cart</i>Carrito </a> 
+              <a class="nav-link" href="categorias/lista_categoria.html"
+                >Categorías</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item active carrito">
+              <a class="nav-link" href="login_register.html">Login/Registro</a>
+            </li>
+            <a class="navbar-brand carrito my-2 my-sm-0 l-m8 carrito" href="#"
+              ><i class="material-icons">add_shopping_cart</i>Carrito
+            </a>
           </ul>
-          
         </div>
-  </nav>
-<!--FIN NAVEGACIÓN-->
-<h1 class="text-center">J-EsiCristo </h1>
-<h3 class="text-center">Tu tienda de artículos religiosos de confianza </h3>
+      </nav>
+      <!--FIN NAVEGACIÓN-->
+      <h1 class="text-center">J-EsiCristo</h1>
+      <h3 class="text-center">
+        Tu tienda de artículos religiosos de confianza
+      </h3>
 
-<!--CARROUSER-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="categorias/complementos/sotana.html"> <img src="img/inicio/sli-casullas.jpg" class="d-block w-100"  alt="casullas "></a>
-    </div>
-    <div class="carousel-item">
-      <a href="categorias/regalos/biblia.html"> <img src="img/inicio/sli-comunion.jpg" class="d-block w-100"  alt="Comunion "></a>
-    </div>
-    <div class="carousel-item">
-      <a href="categorias/comida/vino_bendito.html"> <img src="img/inicio/sli-vino.jpg" class="d-block w-100"  alt="vino santo " > </a>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!--FIN CARROUSER-->
-<br>
-<h4 class="text-center">Nuestros Productos destacados</h4>
-<hr>
-
-<!--TARJETAS INFORMACIÓN-->
-<div class="card-group">
-  <div class="card">
-    <img src="img/inicio/hostias.jpg" class="card-img-top "  alt="Hostias ">
-    <div class="card-body">
-      <h5 class="card-title">Lo más Vendido</h5>
-      <p class="card-text">Hostias en paquete de 500 piezas. Son hostias producidas con harina de tipo "00" y agua, y sobre todo, según las normas, con garantía.
-        Cada paquete tiene el sello de la Oficina Dicesana y contiene 500 hostias.</p>
-    </div>
-    <div class="card-footer">
-      <a href="categorias/comida/listaproductoscomida.html" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/inicio/casulla.jpg" class="card-img-top"  alt=" casullas ">
-    <div class="card-body">
-      <h5 class="card-title">SELECCIÓN DEL MES </h5>
-      <p class="card-text">Casulla, hecha en 100% poliéster, posee una decoración bordada de los símbolos IHS, espigas y cruz. Es disponible en los 4 colores litúrgicos, seleccionar en el manú correspondiente.
-        La casulla es un producto completamente realizado en italia en un laboratorio artesanal con años de experiencia, lo que garantiza un producto de calidad, tradición y belleza.</p>
-    </div>
-    <div class="card-footer">
-      <a href="categorias/complementos/listaproductoscomplementos.html" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/inicio/comunion.jpg" class="card-img-top"  alt=" Especial comunión ">
-    <div class="card-body">
-      <h5 class="card-title">Ocasiones especiales</h5>
-      <p class="card-text">Artículos para la Primera Comunión. La Primera Comunión o Eucaristía es uno de los momentos fundamentales de la vida de cada cristiano, porque por primera vez recibe el scramento del Cuerpo y la Sangre de Jesucristo.</p>
-    </div>
-    <div class="card-footer">
-      <a href="categorias/regalos/listaproductosregalos.html" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/inicio/opinion.jpg" class="card-img-top"  alt="opinión ">
-    <div class="card-body">
-      <h5 class="card-title">Qué opinan nuestros clientes</h5>
-      <p class="card-text">Gran servicio, envios muy rápidos y una atención al cliente increible lo recomiendo sin duda y las <strong>HOSTIAS</strong> de lo mejor, eso si... algunas pican mas que otras.</p>
-    </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center" role="button" aria-disabled="true">Ver mas</a>
-    </div>
-  </div>
-</div>
-<!--PREGUNTAS FRECUENTES-->
-<br>
-<h2 class="text-center">Preguntas frecuentes</h2>
-
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header p-3 mb-2 bg-dark text-center" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          ¿Los productos tiene garantía española?
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body text-center">
-        Si al 100% Todos los productos que vendemos vienen siempre de distribuidores nacionales y por tanto, cumplen las legislaciones españolas en cuanto a garantía
+      <!--CARROUSER-->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="categorias/complementos/sotana.html">
+              <img
+                src="img/inicio/sli-casullas.jpg"
+                class="d-block w-100"
+                alt="casullas "
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a href="categorias/regalos/biblia.html">
+              <img
+                src="img/inicio/sli-comunion.jpg"
+                class="d-block w-100"
+                alt="Comunion "
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a href="categorias/comida/vino_bendito.html">
+              <img
+                src="img/inicio/sli-vino.jpg"
+                class="d-block w-100"
+                alt="vino santo "
+              />
+            </a>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
-  </div>
-  <div class="card p-3 mb-2 text-center bg-dark ">
-      <h2 class="mb-0">
-        <button class="btn text-white collapsed  text-center " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          ¿Puedo devolver mi compra si el producto está en perfecto estado, pero he cambiado de opinión?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body text-center">
-        Por supuesto que sí. Es más, estás en tu derecho legal (derecho de desistimiento en compras por internet) Lo único que verificaremos, es que el producto esté en perfecto estado para devolverlo a la venta. Los precintos, embalajes y demás deberán estar en perfecto estado.
-        No te pediremos explicaciones y no son necesarias las excusas. Puedes devolver tu compra!      </div>
-    </div>
-  </div>
-  <div class="card ">
-    <div class="card-header p-3 mb-2 bg-dark text-center " id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn text-white collapsed  text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          ¿Cuánto tardará mi compra en llegar?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body  text-center">
-        Cada día salen todos los pedidos que entran antes de las 13h y se entregan a las 48-72 horas aproximadamente.
+      <!--FIN CARROUSER-->
+      <br />
+      <h4 class="text-center">Nuestros Productos destacados</h4>
+      <hr />
+
+      <!--TARJETAS INFORMACIÓN-->
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="img/inicio/hostias.jpg"
+            class="card-img-top"
+            alt="Hostias "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lo más Vendido</h5>
+            <p class="card-text">
+              Hostias en paquete de 500 piezas. Son hostias producidas con
+              harina de tipo "00" y agua, y sobre todo, según las normas, con
+              garantía. Cada paquete tiene el sello de la Oficina Diocesana y
+              contiene 500 hostias.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="categorias/comida/listaproductoscomida.html"
+              class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center"
+              role="button"
+              aria-disabled="true"
+              >Ver mas</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="img/inicio/casulla.jpg"
+            class="card-img-top"
+            alt=" casullas "
+          />
+          <div class="card-body">
+            <h5 class="card-title">SELECCIÓN DEL MES</h5>
+            <p class="card-text">
+              Casulla, hecha en 100% poliéster, posee una decoración bordada de
+              los símbolos IHS, espigas y cruz. Es disponible en los 4 colores
+              litúrgicos, seleccionar en el manú correspondiente. La casulla es
+              un producto completamente realizado en Italia en un laboratorio
+              artesanal con años de experiencia, lo que garantiza un producto de
+              calidad, tradición y belleza.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="categorias/complementos/listaproductoscomplementos.html"
+              class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center"
+              role="button"
+              aria-disabled="true"
+              >Ver mas</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="img/inicio/comunion.jpg"
+            class="card-img-top"
+            alt=" Especial comunión "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ocasiones especiales</h5>
+            <p class="card-text">
+              Artículos para la Primera Comunión. La Primera Comunión o
+              Eucaristía es uno de los momentos fundamentales de la vida de cada
+              cristiano, porque por primera vez recibe el sacramento del Cuerpo
+              y la Sangre de Jesucristo.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="categorias/regalos/listaproductosregalos.html"
+              class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center"
+              role="button"
+              aria-disabled="true"
+              >Ver mas</a
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="img/inicio/opinion.jpg"
+            class="card-img-top"
+            alt="opinión "
+          />
+          <div class="card-body">
+            <h5 class="card-title">Qué opinan nuestros clientes</h5>
+            <p class="card-text">
+              Gran servicio, envíos muy rápidos y una atención al cliente
+              increíble lo recomiendo sin duda y las <strong>HOSTIAS</strong> de
+              lo mejor, eso si... algunas pican mas que otras.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a
+              href="#"
+              class="btn btn-black btn-lg d-flex flex-row justify-content-center alig-items-center"
+              role="button"
+              aria-disabled="true"
+              >Ver mas</a
+            >
+          </div>
+        </div>
       </div>
+      <!--PREGUNTAS FRECUENTES-->
+      <br />
+      <h2 class="text-center">Preguntas frecuentes</h2>
+
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header p-3 mb-2 bg-dark text-center" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                class="btn text-white"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                ¿Los productos tiene garantía española?
+              </button>
+            </h2>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body text-center">
+              Si al 100% Todos los productos que vendemos vienen siempre de
+              distribuidores nacionales y por tanto, cumplen las legislaciones
+              españolas en cuanto a garantía
+            </div>
+          </div>
+        </div>
+        <div class="card p-3 mb-2 text-center bg-dark">
+          <h2 class="mb-0">
+            <button
+              class="btn text-white collapsed text-center"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              ¿Puedo devolver mi compra si el producto está en perfecto estado,
+              pero he cambiado de opinión?
+            </button>
+          </h2>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body text-center">
+            Por supuesto que sí. Es más, estás en tu derecho legal (derecho de
+            desistimiento en compras por internet) Lo único que verificaremos,
+            es que el producto esté en perfecto estado para devolverlo a la
+            venta. Los precintos, embalajes y demás deberán estar en perfecto
+            estado. No te pediremos explicaciones y no son necesarias las
+            excusas. Puedes devolver tu compra!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header p-3 mb-2 bg-dark text-center" id="headingThree">
+          <h2 class="mb-0">
+            <button
+              class="btn text-white collapsed text-center"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              ¿Cuánto tardará mi compra en llegar?
+            </button>
+          </h2>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body text-center">
+            Cada día salen todos los pedidos que entran antes de las 13h y se
+            entregan a las 48-72 horas aproximadamente.
+          </div>
+        </div>
+      </div>
+      <!--CREADO POR  -->
+      <div class="container my-4">
+        <div class="row text-center">
+          <div class="col-md-12 mb-1">
+            <h3>Creado por:</h3>
+            <h2 class="my-5 h2">
+              <a href="https://sergiorodriguezweb.es/" target="_blank"
+                >Sergio Rodríguez</a
+              >
+            </h2>
+            <img
+              class="rounded-circle"
+              alt="Sergio Rodriguez"
+              src="img/sergio.jpg"
+              data-holder-rendered="true"
+              width="170px"
+            />
+            <br />
+            <br />
+            <br />
+
+            <p><strong>Jose angel Santos</strong> </p>
+            <br />
+            <p><strong>Adrian Ruiz</strong> </p>
+            <br />
+            <p><strong>Ivan Ojeda</strong> </p>
+          </div>
+        </div>
+      </div>
+
+      <!--FOOTER-->
+      <footer>
+        <nav class="navbar navbar-light bg-white">
+          <div class="row col-3">
+            <a
+              class="navbar-brand ml-2"
+              href="https://es-es.facebook.com/FranciscusPP/"
+              target="_bank"
+            >
+              <img
+                src="img/inicio/f.png"
+                width="35"
+                height="35"
+                alt="icono facebook "
+              />
+            </a>
+            <a
+              class="navbar-brand mt-0"
+              href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/"
+              target="_bank"
+            >
+              <img
+                src="img/inicio/t.png "
+                width="35"
+                height="25"
+                alt="icono twitter "
+              />
+            </a>
+          </div>
+          <div class="row col-5">
+            <a
+              href="legal/avisos_legales.html"
+              class="text-decoration-none text-center m-2 text-dark"
+            >
+              Avisos legales
+            </a>
+            <a
+              href="legal/politica_cookies.html"
+              class="text-decoration-none text-center m-2 text-dark"
+            >
+              Política de cookies</a
+            >
+            <a
+              href="legal/derechos_uso.html"
+              class="text-decoration-none text-center m-2 text-dark"
+            >
+              Derechos de uso
+            </a>
+          </div>
+          <div class="row col-3 git">
+            <a
+              class="navbar-brand"
+              href="https://github.com/joseangellopez/ProyectoDIW"
+              target="_bank"
+            >
+              <img
+                src="img/inicio/g.png"
+                width="140"
+                height="50"
+                alt="icono git "
+              />
+            </a>
+          </div>
+        </nav>
+      </footer>
     </div>
-  </div>
-<!--FOOTER-->
-<footer>
-  <nav class="navbar navbar-light bg-white">
-    <div class="row col-3">
-      <a class="navbar-brand ml-2" href="https://es-es.facebook.com/FranciscusPP/" target="_bank">
-        <img src="img/inicio/f.png" width="35" height="35"  alt="icono facebook " >
-      </a>
-      <a class="navbar-brand mt-0" href="https://twitter.com/Pontifex_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor/" target="_bank">
-        <img src="img/inicio/t.png "width="35" height="25"  alt="icono twitter " >
-      </a>  
-    </div>
-   <div class="row col-5">
-    <a href="legal/avisos_legales.html" class="text-decoration-none text-center m-2 text-dark "> Avisos legales </a>
-    <a href="legal/politica_cookies.html" class="text-decoration-none text-center m-2 text-dark"> Política de cookies</a>
-    <a href="legal/derechos_uso.html" class="text-decoration-none text-center m-2 text-dark"> Derechos de uso </a>
-   </div>
-   <div class="row col-3 git">
-    <a class="navbar-brand" href="https://github.com/joseangellopez/ProyectoDIW" target="_bank">
-      <img src="img/inicio/g.png" width="140" height="50"  alt="icono git ">
-    </a>
-   </div>
-  </nav>
-</footer>
+    <!--ETIQUETA CONTAINER-->
+    <!--JS BOOT-->
 
-</div> <!--ETIQUETA CONTAINER-->
-<!--JS BOOT-->
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
-
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
